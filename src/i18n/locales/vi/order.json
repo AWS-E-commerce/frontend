@@ -1,0 +1,53 @@
+{
+  "title": "Checkout",
+  "subtitle": "Complete your purchase securely",
+  "processing": "Processing...",
+  "placeOrder": "Place Order",
+  "terms": "By placing your order, you agree to our Terms & Conditions",
+  
+  "contactInfo": {
+    "title": "Contact Information",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "address": "Address",
+    "addressPlaceholder": "Enter your address",
+    "notes": "Order Notes",
+    "notesPlaceholder": "Any special instructions? (Optional)"
+  },
+  
+  "payment": {
+    "title": "Payment Method",
+    "momoDescription": "Fast & secure",
+    "bankTransfer": "Bank Transfer",
+    "bankDescription": "Manual transfer",
+    "creditCard": "Credit Card",
+    "cardDescription": "Visa, Mastercard",
+    "securePayment": "Secure Payment",
+    "secureNote": "Your payment information is encrypted and secure"
+  },
+  
+  "summary": {
+    "title": "Order Summary",
+    "subtotal": "Subtotal",
+    "processingFee": "Processing Fee",
+    "total": "Total"
+  },
+  
+  "validation": {
+    "fullNameRequired": "Full name is required",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Invalid email address",
+    "phoneRequired": "Phone number is required",
+    "phoneInvalid": "Invalid phone number (10-11 digits)",
+    "addressRequired": "Address is required"
+  },
+  
+  "success": {
+    "title": "Order Placed Successfully!",
+    "message": "Thank you for your purchase. Your gift cards will be delivered shortly.",
+    "emailSent": "Confirmation email sent to your inbox",
+    "viewOrders": "View My Orders"
+  }
+}
