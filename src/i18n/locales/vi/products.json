@@ -1,0 +1,19 @@
+{
+  "title": "Gift Cards",
+  "searchPlaceholder": "Search for gift cards...",
+  "featuredBrands": "Featured Brands",
+  "chooseFromPopular": "Choose from the most popular gaming platforms",
+  "viewAll": "View All",
+  "popular": "Popular",
+  "unavailable": "Unavailable",
+  "availableAmounts": "Available Amounts",
+  "addedToCart": "Added to cart",
+  "noProducts": "No products found",
+  "category": "Category",
+  "allCategories": "All Categories",
+  "sortBy": "Sort By",
+  "priceAsc": "Price: Low to High",
+  "priceDesc": "Price: High to Low",
+  "nameAsc": "Name: A-Z",
+  "nameDesc": "Name: Z-A"
+}

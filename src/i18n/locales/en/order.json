@@ -1,0 +1,53 @@
+{
+  "title": "Thanh toán",
+  "subtitle": "Hoàn tất đơn hàng một cách bảo mật",
+  "processing": "Đang xử lý...",
+  "placeOrder": "Đặt hàng",
+  "terms": "Bằng việc đặt hàng, bạn đồng ý với Điều khoản & Điều kiện của chúng tôi",
+  
+  "contactInfo": {
+    "title": "Thông tin liên hệ",
+    "fullName": "Họ và tên",
+    "fullNamePlaceholder": "Nhập họ tên của bạn",
+    "email": "Địa chỉ Email",
+    "phone": "Số điện thoại",
+    "address": "Địa chỉ",
+    "addressPlaceholder": "Nhập địa chỉ của bạn",
+    "notes": "Ghi chú đơn hàng",
+    "notesPlaceholder": "Có yêu cầu đặc biệt nào không? (Tùy chọn)"
+  },
+  
+  "payment": {
+    "title": "Phương thức thanh toán",
+    "momoDescription": "Nhanh & bảo mật",
+    "bankTransfer": "Chuyển khoản",
+    "bankDescription": "Chuyển khoản thủ công",
+    "creditCard": "Thẻ tín dụng",
+    "cardDescription": "Visa, Mastercard",
+    "securePayment": "Thanh toán bảo mật",
+    "secureNote": "Thông tin thanh toán của bạn được mã hóa và bảo mật"
+  },
+  
+  "summary": {
+    "title": "Tóm tắt đơn hàng",
+    "subtotal": "Tạm tính",
+    "processingFee": "Phí xử lý",
+    "total": "Tổng cộng"
+  },
+  
+  "validation": {
+    "fullNameRequired": "Vui lòng nhập họ tên",
+    "emailRequired": "Vui lòng nhập email",
+    "emailInvalid": "Địa chỉ email không hợp lệ",
+    "phoneRequired": "Vui lòng nhập số điện thoại",
+    "phoneInvalid": "Số điện thoại không hợp lệ (10-11 chữ số)",
+    "addressRequired": "Vui lòng nhập địa chỉ"
+  },
+  
+  "success": {
+    "title": "Đặt hàng thành công!",
+    "message": "Cảm ơn bạn đã mua hàng. Thẻ quà tặng sẽ được gửi đến bạn sớm nhất.",
+    "emailSent": "Email xác nhận đã được gửi đến hộp thư của bạn",
+    "viewOrders": "Xem đơn hàng của tôi"
+  }
+}

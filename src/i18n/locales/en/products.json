@@ -1,0 +1,23 @@
+{
+  "title": "Thẻ quà tặng",
+  "searchPlaceholder": "Tìm kiếm thẻ quà tặng...",
+  "featuredBrands": "Thương hiệu nổi bật",
+  "chooseFromPopular": "Chọn từ các nền tảng game phổ biến nhất",
+  "viewAll": "Xem tất cả",
+  "popular": "Phổ biến",
+  "unavailable": "Không khả dụng",
+  "availableAmounts": "Mệnh giá khả dụng",
+  "addedToCart": "Đã thêm vào giỏ hàng",
+  "noProducts": "Không tìm thấy sản phẩm",
+  "category": "Danh mục",
+  "allCategories": "Tất cả danh mục",
+  "sortBy": "Sắp xếp theo",
+  "priceAsc": "Giá: Thấp đến cao",
+  "priceDesc": "Giá: Cao đến thấp",
+  "nameAsc": "Tên: A-Z",
+  "nameDesc": "Tên: Z-A",
+  "secure": "Secure",
+  "totalPrice": "Total Price",
+  "importantInfo": "Important Information",
+  "deliveryNote": "Digital codes will be delivered instantly to your email after payment confirmation."
+}

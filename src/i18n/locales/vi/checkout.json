@@ -1,0 +1,22 @@
+{
+  "title": "Thanh toán",
+  "contactInfo": "Thông tin liên hệ",
+  "email": "Email",
+  "phone": "Số điện thoại",
+  "recipientInfo": "Thông tin người nhận",
+  "recipientName": "Tên người nhận",
+  "recipientNamePlaceholder": "Nhập tên người nhận",
+  "recipientEmail": "Email người nhận",
+  "message": "Lời nhắn",
+  "messagePlaceholder": "Nhập lời nhắn cho người nhận (tùy chọn)",
+  "paymentMethod": "Phương thức thanh toán",
+  "momoDescription": "Thanh toán qua ví điện tử MoMo",
+  "orderSummary": "Tóm tắt đơn hàng",
+  "total": "Tổng cộng",
+  "placeOrder": "Đặt hàng",
+  "emailRequired": "Email là bắt buộc",
+  "emailInvalid": "Địa chỉ email không hợp lệ",
+  "phoneRequired": "Số điện thoại là bắt buộc",
+  "recipientNameRequired": "Tên người nhận là bắt buộc",
+  "recipientEmailRequired": "Email người nhận là bắt buộc"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Checkout",
+  "contactInfo": "Contact Information",
+  "email": "Email",
+  "phone": "Phone Number",
+  "recipientInfo": "Recipient Information",
+  "recipientName": "Recipient Name",
+  "recipientNamePlaceholder": "Enter recipient's name",
+  "recipientEmail": "Recipient Email",
+  "message": "Message",
+  "messagePlaceholder": "Enter a message for the recipient (optional)",
+  "paymentMethod": "Payment Method",
+  "momoDescription": "Pay with MoMo e-wallet",
+  "orderSummary": "Order Summary",
+  "total": "Total",
+  "placeOrder": "Place Order",
+  "emailRequired": "Email is required",
+  "emailInvalid": "Invalid email address",
+  "phoneRequired": "Phone number is required",
+  "recipientNameRequired": "Recipient name is required",
+  "recipientEmailRequired": "Recipient email is required"
+}

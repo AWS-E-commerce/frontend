@@ -29,3 +29,5 @@ sketch
 *.njsproj
 *.sln
 *.sw?
+
+.vercel
