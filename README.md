@@ -105,6 +105,7 @@ The frontend communicates with a JWT-secured Spring Boot backend. API documentat
 
 ```bash
 git clone https://github.com/AWS-E-commerce/frontend.git
+cd frontend/
 ```
 
 2. **Install dependencies**
