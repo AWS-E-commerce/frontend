@@ -1,7 +1,12 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { authService } from "@/api/services/auth.service";
 import { useAuthStore } from "@/store/authStore";
-import type { LoginRequest, RegisterRequest, User } from "@/types";
+import type {
+  LoginRequest,
+  MemberProfile,
+  RegisterRequest,
+  User,
+} from "@/types";
 import { useUIStore } from "@/store/uiStore";
 import { useNavigate } from "react-router-dom";
 
@@ -22,7 +27,7 @@ export const useLogin = () => {
         phone: data.phone,
         role: data.role,
         address: data.address,
-        memberProfile: "",
+        memberProfile: {} as MemberProfile,
         banned_at: "",
       };
 

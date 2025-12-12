@@ -65,4 +65,9 @@ export interface RefundRequest {
   orderId: number;
 }
 
+export interface CreateOrderResponse {
+  orderId: number;
+  paymentUrl: string;
+}
+
 export interface OrderPageResponse extends Page<OrderDetail> {}

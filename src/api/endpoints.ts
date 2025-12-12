@@ -5,13 +5,13 @@ const API_BASE = import.meta.env.VITE_API_BASE_URL;
 export const ENDPOINTS = {
   // Auth
   AUTH: {
-    LOGIN: `${API_BASE}/api/login`,
-    REGISTER: `${API_BASE}/api/register`,
+    LOGIN: `${API_BASE}/login`,
+    REGISTER: `${API_BASE}/register`,
   },
 
   // Products
   PRODUCTS: {
-    LIST: `${API_BASE}/api/products`,
+    LIST: `${API_BASE}/products`,
     DETAIL: (id: number) => `${API_BASE}/products/${id}`,
   },
 

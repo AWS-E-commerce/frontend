@@ -1,53 +1,84 @@
 {
-  "title": "Checkout",
-  "subtitle": "Complete your purchase securely",
-  "processing": "Processing...",
-  "placeOrder": "Place Order",
-  "terms": "By placing your order, you agree to our Terms & Conditions",
-  
-  "contactInfo": {
-    "title": "Contact Information",
-    "fullName": "Full Name",
-    "fullNamePlaceholder": "Enter your full name",
-    "email": "Email Address",
-    "phone": "Phone Number",
-    "address": "Address",
-    "addressPlaceholder": "Enter your address",
-    "notes": "Order Notes",
-    "notesPlaceholder": "Any special instructions? (Optional)"
+  "history": {
+    "pageTitle": "Lịch sử đơn hàng",
+    "empty": "Bạn chưa có đơn hàng nào",
+    "emptyShop": "Bắt đầu mua sắm",
+    "title": "Đơn hàng của tôi",
+    "titleDesc": "Theo dõi và quản lý tất cả đơn hàng tại đây.",
+    "viewDetails": "Xem chi tiết",
+    "cancelOrder": "Hủy đơn hàng",
+    "cancelling": "Đang hủy",
+    "loading": "Đang tải",
+    "error": "Lỗi",
+    "errorGeneral": "Vui lòng tải lại trang"
   },
-  
-  "payment": {
-    "title": "Payment Method",
-    "momoDescription": "Fast & secure",
-    "bankTransfer": "Bank Transfer",
-    "bankDescription": "Manual transfer",
-    "creditCard": "Credit Card",
-    "cardDescription": "Visa, Mastercard",
-    "securePayment": "Secure Payment",
-    "secureNote": "Your payment information is encrypted and secure"
+  "detail": {
+    "orderId": "Đơn hàng #{{id}}",
+    "orderID": "Mã đơn hàng",
+    "orderDetails": "Chi tiết đơn hàng",
+    "paymentMethod": "Phương thức thanh toán",
+    "label": "Nhãn trạng thái",
+    "paymentMethodDesc": {
+      "momo": "Ví MoMo",
+      "bank": "Chuyển khoản ngân hàng",
+      "card": "Thẻ tín dụng"
+    },
+    "orderDate": "Ngày đặt hàng",
+    "orderStatus": "Trạng thái đơn hàng",
+    "totalAmount": "Tổng tiền",
+    "status": {
+      "allStatus": "Tất cả trạng thái",
+      "pending": "Đang xử lý",
+      "completed": "Hoàn thành",
+      "failed": "Thất bại",
+      "cancelled": "Đã hủy",
+      "refunded": "Đã hoàn tiền"
+    },
+    "userInfo": "Thông tin người dùng",
+    "username": "Tên người dùng",
+    "orderItems": "Sản phẩm trong đơn",
+    "productName": "Sản phẩm",
+    "quantity": "Số lượng",
+    "price": "Giá",
+    "total": "Tổng",
+    "pricePerUnit": "Giá mỗi đơn vị"
   },
-  
-  "summary": {
-    "title": "Order Summary",
-    "subtotal": "Subtotal",
-    "processingFee": "Processing Fee",
-    "total": "Total"
-  },
-  
-  "validation": {
-    "fullNameRequired": "Full name is required",
-    "emailRequired": "Email is required",
-    "emailInvalid": "Invalid email address",
-    "phoneRequired": "Phone number is required",
-    "phoneInvalid": "Invalid phone number (10-11 digits)",
-    "addressRequired": "Address is required"
-  },
-  
-  "success": {
-    "title": "Order Placed Successfully!",
-    "message": "Thank you for your purchase. Your gift cards will be delivered shortly.",
-    "emailSent": "Confirmation email sent to your inbox",
-    "viewOrders": "View My Orders"
+  "admin": {
+    "orderTitle": "Quản lý đơn hàng",
+    "orderDesc": "Theo dõi và quản lý tất cả đơn hàng.",
+    "totalOrders": "Tổng số đơn hàng",
+    "completedOrders": "Hoàn thành",
+    "pendingOrders": "Đang xử lý",
+    "totalRevenue": "Tổng doanh thu",
+    "filter": {
+      "fromDate": "Từ ngày",
+      "toDate": "Đến ngày",
+      "status": "Trạng thái",
+      "search": "Tìm kiếm",
+      "username": "Tên người dùng",
+      "searchUsername": "Tìm kiếm tên người dùng"
+    },
+    "actions": "Hành động",
+    "view": "Xem",
+    "refund": {
+      "refundButton": "Hoàn tiền",
+      "refundTitle": "Xác nhận hành động",
+      "refundAction": "Hành động này không thể hoàn tác",
+      "refundConfirm": "Bạn có chắc chắn muốn hoàn tiền cho đơn hàng này không?",
+      "refundYes": "Xác nhận",
+      "refundNo": "Hủy"
+    },
+    "changeStatus": {
+      "changeStatus": "Cập nhật trạng thái",
+      "changeConfirm": "Bạn có chắc muốn thay đổi trạng thái đơn hàng thành {{status}}?"
+    },
+    "page": {
+      "showing": "Hiển thị {{count}} trong tổng {{total}} đơn hàng",
+      "previous": "Trước",
+      "next": "Tiếp",
+      "current": "Trang {{count}} trong {{total}}",
+      "noOrders": "Không có đơn hàng nào",
+      "noOrdersDesc": "Hãy điều chỉnh bộ lọc của bạn để xem thêm kết quả"
+    }
   }
 }

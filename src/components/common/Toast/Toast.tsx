@@ -33,11 +33,11 @@ export const Toast = () => {
   };
 
   return (
-    <div className="fixed top-20 right-4 z-50 space-y-2">
+    <div className="fixed top-20 right-4 z-50 space-y-2 rounded-xl bg-purple-500 dark:bg-purple-400">
       {toasts.map((toast) => (
         <div
           key={toast.id}
-          className={`flex items-center gap-3 px-4 py-3 rounded-lg border shadow-lg min-w-[300px] animate-slideIn ${
+          className={`flex items-center gap-3 px-4 py-3 rounded-xl border shadow-lg min-w-[300px] animate-slideIn ${
             styles[toast.type]
           }`}
         >

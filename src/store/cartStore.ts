@@ -24,8 +24,10 @@ export const useCartStore = create<CartState>()(
           // Check if same product with same amount already exists
           const existingItemIndex = state.items.findIndex(
             (item) =>
+              // item.product.id === newItem.product.id &&
+              // item.amount === newItem.amount,
               item.product.id === newItem.product.id &&
-              item.amount === newItem.amount,
+              item.variantId === newItem.variantId,
           );
 
           let updatedItems: CartItem[];
@@ -39,7 +41,8 @@ export const useCartStore = create<CartState>()(
             );
           } else {
             // Add new item with unique ID
-            const id = `${newItem.product.id}-${newItem.amount}-${Date.now()}`;
+            // const id = `${newItem.product.id}-${newItem.amount}-${Date.now()}`;
+            const id = `${newItem.product.id}-${newItem.variantId}-${Date.now()}`;
             const item: CartItem = { ...newItem, id };
             updatedItems = [...state.items, item];
           }

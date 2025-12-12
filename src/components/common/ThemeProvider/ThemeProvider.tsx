@@ -17,3 +17,5 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({
 
   return <>{children}</>;
 };
+
+export default ThemeProvider;

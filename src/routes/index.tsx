@@ -11,7 +11,6 @@ import Products from "@/pages/customer/Products";
 import ProductDetail from "@/pages/customer/ProductDetail";
 import Cart from "@/pages/customer/Cart";
 import Checkout from "@/pages/customer/Checkout";
-import OrderSuccess from "@/pages/customer/OrderSuccess";
 import Orders from "@/pages/customer/Orders";
 import Profile from "@/pages/customer/Profile";
 
@@ -29,6 +28,8 @@ import Register from "@/pages/auth/Register";
 import NotFound from "@/pages/NotFound";
 import AdminInventory from "@/pages/admin/Inventory";
 import Variants from "@/pages/admin/Variants";
+import PaymentSuccess from "@/pages/customer/PaymentSuccess";
+import PaymentCancelled from "@/pages/customer/PaymentCancelled";
 
 export const router = createBrowserRouter([
   {
@@ -51,6 +52,14 @@ export const router = createBrowserRouter([
         path: "cart",
         element: <Cart />,
       },
+      {
+        path: "order/success",
+        element: <PaymentSuccess />,
+      },
+      {
+        path: "order/cancelled",
+        element: <PaymentCancelled />,
+      },
       // Protected customer routes
       {
         element: <ProtectedRoute />,
@@ -63,10 +72,10 @@ export const router = createBrowserRouter([
             path: "orders",
             element: <Orders />,
           },
-          {
-            path: "order-success/:orderId",
-            element: <OrderSuccess />,
-          },
+          // {
+          //   path: "order-success/:orderId",
+          //   element: <OrderSuccess />,
+          // },
           {
             path: "profile",
             element: <Profile />,

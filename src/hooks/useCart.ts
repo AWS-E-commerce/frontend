@@ -1,13 +1,6 @@
 import { useCartStore } from "@/store/cartStore";
 import { useUIStore } from "@/store/uiStore";
-
-interface SimpleProduct {
-  id: string;
-  name: string;
-  description: string;
-  imageUrl: string;
-  category: string;
-}
+import type { ProductDetail } from "@/types";
 
 export const useCart = () => {
   const {
@@ -24,29 +17,40 @@ export const useCart = () => {
   const addToast = useUIStore((state) => state.addToast);
 
   const addToCart = (
-    product: SimpleProduct,
-    amount: number,
+    product: ProductDetail,
+    variantId: number,
     quantity: number = 1,
   ) => {
+    // Find the selected variant to get amount/value
+    const selectedVariant = product.variant.find(
+      (v) => v.variantId === variantId,
+    );
+
+    if (!selectedVariant) {
+      addToast({
+        message: "Invalid variant selected",
+        type: "error",
+      });
+      return;
+    }
+
     addItem({
       product: {
-        id: product.id,
+        productId: product.productId,
         name: product.name,
         description: product.description,
-        imageUrl: product.imageUrl,
-        category: product.category,
-        presetAmounts: [amount],
-        allowCustomAmount: false,
-        isActive: true,
-        createdAt: new Date().toISOString(),
-        updatedAt: new Date().toISOString(),
+        pictureUrl: product.pictureUrl,
+        branch: product.branch,
+        discount: product.discount,
+        variant: product.variant,
       },
-      amount,
+      amount: selectedVariant.price,
+      variantId: selectedVariant.variantId,
       quantity,
     });
 
     addToast({
-      message: `${product.name} added to cart!`,
+      message: `${product.name} (${selectedVariant.value} ${selectedVariant.currency}) added to cart!`,
       type: "success",
     });
   };

@@ -2,6 +2,7 @@
 import { axiosInstance } from "../axios.config";
 import type {
   CreateOrderRequest,
+  CreateOrderResponse,
   OrderDetail,
   OrderPageResponse,
   PageRequest,
@@ -31,8 +32,8 @@ export const getOrderHistory = async (
  */
 export const createOrder = async (
   orderData: CreateOrderRequest,
-): Promise<OrderDetail> => {
-  const { data } = await axiosInstance.post<OrderDetail>(
+): Promise<CreateOrderResponse> => {
+  const { data } = await axiosInstance.post<CreateOrderResponse>(
     "/order/create",
     orderData,
   );

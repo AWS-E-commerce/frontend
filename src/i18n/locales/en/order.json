@@ -1,53 +1,84 @@
 {
-  "title": "Thanh toán",
-  "subtitle": "Hoàn tất đơn hàng một cách bảo mật",
-  "processing": "Đang xử lý...",
-  "placeOrder": "Đặt hàng",
-  "terms": "Bằng việc đặt hàng, bạn đồng ý với Điều khoản & Điều kiện của chúng tôi",
-  
-  "contactInfo": {
-    "title": "Thông tin liên hệ",
-    "fullName": "Họ và tên",
-    "fullNamePlaceholder": "Nhập họ tên của bạn",
-    "email": "Địa chỉ Email",
-    "phone": "Số điện thoại",
-    "address": "Địa chỉ",
-    "addressPlaceholder": "Nhập địa chỉ của bạn",
-    "notes": "Ghi chú đơn hàng",
-    "notesPlaceholder": "Có yêu cầu đặc biệt nào không? (Tùy chọn)"
+  "history": {
+    "pageTitle": "Orders History",
+    "empty": "You have no orders yet",
+    "emptyShop": "Start Shopping",
+    "title": "My Orders",
+    "titleDesc": "Track and manage all your orders here.",
+    "viewDetails": "View Details",
+    "cancelOrder": "Cancel Order",
+    "cancelling": "Cancelling",
+    "loading": "Loading",
+    "error": "Error",
+    "errorGeneral": "Please refresh the page"
   },
-  
-  "payment": {
-    "title": "Phương thức thanh toán",
-    "momoDescription": "Nhanh & bảo mật",
-    "bankTransfer": "Chuyển khoản",
-    "bankDescription": "Chuyển khoản thủ công",
-    "creditCard": "Thẻ tín dụng",
-    "cardDescription": "Visa, Mastercard",
-    "securePayment": "Thanh toán bảo mật",
-    "secureNote": "Thông tin thanh toán của bạn được mã hóa và bảo mật"
+  "detail": {
+    "orderId": "Order #{{id}}",
+    "orderID": "Order ID",
+    "orderDetails": "Order Details",
+    "paymentMethod": "Payment Method",
+    "label": "Status Label",
+    "paymentMethodDesc": {
+      "momo": "MoMo Wallet",
+      "bank": "Bank Transfer",
+      "card": "Credit Card"
+    },
+    "orderDate": "Order Date",
+    "orderStatus": "Order Status",
+    "totalAmount": "Total Amount",
+    "status": {
+      "allStatus": "All Status",
+      "pending": "Pending",
+      "completed": "Completed",
+      "failed": "Failed",
+      "cancelled": "Cancelled",
+      "refunded": "Refunded"
+    },
+    "userInfo": "User Information",
+    "username": "Username",
+    "orderItems": "Order Items",
+    "productName": "Product",
+    "quantity": "Quantity",
+    "price": "Price",
+    "total": "Total",
+    "pricePerUnit": "Price Per Unit"
   },
-  
-  "summary": {
-    "title": "Tóm tắt đơn hàng",
-    "subtotal": "Tạm tính",
-    "processingFee": "Phí xử lý",
-    "total": "Tổng cộng"
-  },
-  
-  "validation": {
-    "fullNameRequired": "Vui lòng nhập họ tên",
-    "emailRequired": "Vui lòng nhập email",
-    "emailInvalid": "Địa chỉ email không hợp lệ",
-    "phoneRequired": "Vui lòng nhập số điện thoại",
-    "phoneInvalid": "Số điện thoại không hợp lệ (10-11 chữ số)",
-    "addressRequired": "Vui lòng nhập địa chỉ"
-  },
-  
-  "success": {
-    "title": "Đặt hàng thành công!",
-    "message": "Cảm ơn bạn đã mua hàng. Thẻ quà tặng sẽ được gửi đến bạn sớm nhất.",
-    "emailSent": "Email xác nhận đã được gửi đến hộp thư của bạn",
-    "viewOrders": "Xem đơn hàng của tôi"
+  "admin": {
+    "orderTitle": "Orders Management",
+    "orderDesc": "Track and manage all orders.",
+    "totalOrders": "Total Orders",
+    "completedOrders": "Completed",
+    "pendingOrders": "Pending",
+    "totalRevenue": "Total Revenue",
+    "filter": {
+      "fromDate": "From Date",
+      "toDate": "To Date",
+      "status": "Status",
+      "search": "Search",
+      "username": "Username",
+      "searchUsername": "Search username"
+    },
+    "actions": "Actions",
+    "view": "View",
+    "refund": {
+      "refundButton": "Refund",
+      "refundTitle": "Confirm Action",
+      "refundAction": "This action cannot be undone",
+      "refundConfirm": "Are you sure you want to refund this order?",
+      "refundYes": "Confirm",
+      "refundNo": "Cancel"
+    },
+    "changeStatus": {
+      "changeStatus": "Update Status",
+      "changeConfirm": "Are you sure you want to change the order status to {{status}}?"
+    },
+    "page": {
+      "showing": "Showing {{count}} of {{total}} orders",
+      "previous": "Previous",
+      "next": "Next",
+      "current": "Page {{count}} of {{total}}",
+      "noOrders": "No orders found",
+      "noOrdersDesc": "Try adjusting your filters to see more results"
+    }
   }
 }

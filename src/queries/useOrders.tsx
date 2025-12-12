@@ -7,7 +7,12 @@ import {
   cancelOrder,
   getOrderStats,
 } from "@/api/services/order.service";
-import type { CreateOrderRequest, PageRequest, OrderDetail } from "@/types";
+import type {
+  CreateOrderRequest,
+  PageRequest,
+  OrderDetail,
+  CreateOrderResponse,
+} from "@/types";
 import { useAuthStore } from "@/store/authStore";
 
 export const ORDER_KEYS = {
@@ -69,20 +74,21 @@ export const useOrderStats = () => {
  */
 export const useCreateOrder = () => {
   const queryClient = useQueryClient();
-
-  return useMutation({
+  return useMutation<CreateOrderResponse, Error, CreateOrderRequest>({
     mutationFn: (orderData: CreateOrderRequest) => createOrder(orderData),
     onSuccess: (data) => {
       // Invalidate order lists to refetch
       queryClient.invalidateQueries({ queryKey: ORDER_KEYS.lists() });
       queryClient.invalidateQueries({ queryKey: ORDER_KEYS.stats() });
 
-      // Set the new order in cache
-      queryClient.setQueryData(ORDER_KEYS.detail(data.orderId), data);
+      // Only set query data if we have full order details
+      // The create response only has orderId and paymentUrl
+      // We'll fetch full details later when viewing the order
     },
     onError: (error: any) => {
       console.error("Order creation failed:", error);
     },
+    retry: false,
   });
 };
 
