@@ -104,8 +104,7 @@ The frontend communicates with a JWT-secured Spring Boot backend. API documentat
 1. **Clone the repository**
 
 ```bash
-git clone <your-repo-url>
-cd <repo-folder>
+git clone https://github.com/AWS-E-commerce/frontend.git
 ```
 
 2. **Install dependencies**
@@ -131,7 +130,7 @@ Visit http://localhost:5173 (or whatever Vite prints).
 Create `.env.development`:
 
 ```env
-VITE_API_BASE_URL=https://sell-card-ojt.onrender.com/api
+VITE_API_BASE_URL=...
 ```
 
 Notes:
@@ -240,7 +239,7 @@ No formal test suites are included by default.
 ## Contact
 
 Frontend owner/maintainer: Repository owner  
-Backend/API documentation: ![See backend repository](https://github.com/hiuhiu0902/SELL_CARD_OJT)
+Backend/API documentation: [See backend repository](https://github.com/hiuhiu0902/SELL_CARD_OJT)
 
 ---
 
