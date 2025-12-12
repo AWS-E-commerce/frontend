@@ -140,7 +140,7 @@ Notes:
 - The Axios instance uses this value for request base URLs and JWT injection.
 ## Project structure (concise)
 
-(text
+```text
 src/
   api/               # axios config, API endpoints, service modules
   components/        # reusable UI (common/layout/features)
@@ -152,7 +152,7 @@ src/
   styles/            # Tailwind base styles
   App.tsx            # root component
   main.tsx           # application entry (providers, routing)
-)
+```
 
 Configuration files:
 
@@ -167,17 +167,17 @@ Configuration files:
 
 ### Build
 
-(bash
+```bash
 npm run build
-)
+```
 
 Build artifacts generated to `dist/`.
 
 ### Preview production build
 
-(bash
+```bash
 npm run preview
-)
+```
 
 Useful for testing routing and behavior before deployment.
 
@@ -198,15 +198,15 @@ The project is already deployed at `https://sellcardojt.site/`.
 
 ### Lint
 
-(bash
+```bash
 npm run lint
-)
+```
 
 ### Type checking
 
-(bash
+```bash
 tsc --noEmit
-)
+```
 
 No formal test suites are included by default.
 
@@ -240,7 +240,7 @@ No formal test suites are included by default.
 ## Contact
 
 Frontend owner/maintainer: Repository owner  
-Backend/API documentation: See backend repository
+Backend/API documentation: ![See backend repository]()
 
 ---
 
